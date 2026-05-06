@@ -47,3 +47,21 @@ Covers arrays with union types, object typing with nested properties, and the `R
 
 ## 05-enum.ts
 Introduces enums, specifically string enums, and shows how to assign `enum` values properly.
+
+## 06-alternative-to-enum.ts
+This file uses literal types as an alternative to enums by restricting a variable to specific string values like 'admin', 'janitor', 'teacher', and 'student'. It ensures only valid roles can be assigned and used in functions.
+
+## 07-custom-type-role.ts
+This file introduces type aliases to define custom types like Role and User. It improves code readability and reusability, especially when the same type structure is used multiple times.
+
+## 08-functions.ts
+This file demonstrates function typing in TypeScript, including return types, void, and function types for callbacks. It also shows how to define methods inside objects with proper typing.
+
+## 09-special-types.ts
+This file focuses on special types like null and undefined. It shows how they can be assigned and combined with other types using union types.
+
+## 10-form.html and 10-type-narrowing.ts
+These files demonstrate type narrowing by checking if a DOM element exists before accessing its value. It prevents runtime errors by ensuring the element is not null.
+
+## 11-optional.ts
+This file shows how to use optional parameters and optional object properties. It also introduces the nullish coalescing operator (??) to handle null or undefined values safely.
