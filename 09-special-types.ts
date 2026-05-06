@@ -7,7 +7,7 @@ a = null
 let b: null | string
 
 b = null
-b = "Hi"
+b = "Kumusta"
 // b = 10
 
 // Special Type - undefined
@@ -20,6 +20,6 @@ c = undefined
 let d: undefined | string
 
 d = undefined
-d = "Hi"
+d = "Kumusta"
 // d = null
 // d = 10
