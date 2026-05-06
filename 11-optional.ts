@@ -12,12 +12,12 @@ generateError("An error occured") // Automatic Semicolon Insertion pitfall - add
     type User = {
         name: string;
         age: number;
-        role?: 'admin' | 'guess'
+        role?: 'student' | 'guest'
     }
 
     let user: User = {
-        name: 'Elmer',
-        age: 31
+        name: 'Ruth May',
+        age: 23
     }
 
     user.name
