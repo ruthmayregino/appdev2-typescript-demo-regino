@@ -1,3 +1,3 @@
-let userName1 = "Elmer";
+let userName1 = "Ruth May";
 
 console.log(typeof userName1)
