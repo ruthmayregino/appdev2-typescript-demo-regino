@@ -7,8 +7,10 @@
         Teacher = 'Teacher',
         // Student,
         Student = 'Student',
+        // Janitor
+        Janitor = 'Janitor'
     }
 
     // let userRole: Role = 0;
-    let userRole: Role = Role.SuperAdmin;
+    let userRole: Role = Role.Janitor;
 })
