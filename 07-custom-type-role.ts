@@ -1,7 +1,7 @@
 (() => {
     // Type Aliases or Custom Types
     // use `type` keyword to create custom type
-    type Role = 'admin' | 'guess' | 'teacher' | 'student'
+    type Role = 'admin' | 'janitor' | 'teacher' | 'student'
 
     // Complex Object Type Definition
     type User = {
@@ -11,7 +11,7 @@
         permission: string[];
     }
 
-    let userRole: Role = 'admin'
+    let userRole: Role = 'janitor'
 
     // ...
 
